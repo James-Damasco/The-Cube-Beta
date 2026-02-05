@@ -1,11 +1,10 @@
 {
-  "name": "bsehovac.github.io",
+  "name": "james-damasco.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "dependencies": {},
+  "description": "The Cube is a web-based Rubic's cube puzzle game designed to test your skills in solving a cube in 3D. It uses **three.js** for 3D Rendering of the cube, and comes with a UI for timer, stats, theming, preferences, and scoring. The site shows you solve time, best and worst records, average of multiple solves, and other metrics while you play. ([https://knorcubesnininongryanmercado.netlify.app/]) Players can double tap to start the game, and enjoy smooth transitions, animations, and interactivity for an immersive experience.",
+  "main": "controller-beta.js",
   "devDependencies": {
-    "rollup-plugin-babel-minify": "^5.0.0"
+    "rollup-plugin-babel-minify": "^10.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,12 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/bsehovac/bsehovac.github.io.git"
+    "url": "git+ssh://git@github.com/bsehovac/james-damasco.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bsehovac/bsehovac.github.io/issues"
+    "url": "https://github.com/bsehovac/james-damasco.github.io/issues"
   },
-  "homepage": "https://github.com/bsehovac/bsehovac.github.io#readme"
+  "homepage": "https://github.com/bsehovac/james-damasco.github.io#readme",
+  "keywords": [],
+  "type": "commonjs",
+  "dependencies": {
+    "@capacitor/android": "^8.0.2",
+    "@capacitor/cli": "^8.0.2",
+    "@capacitor/core": "^8.0.2"
+  }
 }

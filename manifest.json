@@ -1,0 +1,21 @@
+{
+    "name": "The Cube Beta V2",
+    "short_name": "The Cube",
+    "start_url": "./game.html",
+    "display": "standalone",
+    "background_color": "#000000",
+    "theme_color": "#FFFFFF",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "assets/icons/favicon.ico",
+            "sizes": "48x48",
+            "type": "image/ico"
+        },
+        {
+            "src": "assets/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type":"image/png"
+        }
+    ]
+}
